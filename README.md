@@ -1,10 +1,21 @@
-# ApexPlanet Task-2, Data Analytics and Business Intelligence
+# ApexPlanet Internship Task-2
 
+Python Data Analytics Internship Project
+
+## Data Analytics and Business Intelligence Project
+
+Author: Anish Raj.R
+
+Internship: ApexPlanet Software Pvt. Ltd.
+
+---
+
+> This project demonstrates a complete data analytics and business intelligence workflow.
 ## Project Objective
 
-This project analyzes customer transaction data to identify revenue patterns, product performance, category performance, customer segments, geographic trends, monthly sales behavior, and customer retention opportunities.
+The project focuses on EDA, SQL analysis, visualization, dashboard creation and business insights.
 
-The project combines data-quality validation, exploratory data analysis, SQL analysis, visualization, database validation, and business recommendations.
+Technologies Used: Python, SQL, SQLite, Excel and PowerPoint
 
 ## Dataset
 
