@@ -11,266 +11,220 @@ Internship: ApexPlanet Software Pvt. Ltd.
 ---
 
 > This project demonstrates a complete data analytics and business intelligence workflow.
+
 ## Project Objective
 
 The project focuses on EDA, SQL analysis, visualization, dashboard creation and business insights.
 
 Technologies Used: Python, SQL, SQLite, Excel and PowerPoint
 
-## Dataset
+---
 
-The dataset contains:
+> The following section explains the overall workflow of the project.
 
-* 1,000 transaction records
-* 992 distinct Order IDs
-* 947 customers
-* 5,435 units sold
-* 12 original columns
-* 2025 transaction data
-* January 2026 partial-period data
+## Project Overview
 
-## Tools Used
+This project performs end-to-end exploratory data analysis and business intelligence on a retail sales dataset using Python, SQL, SQLite and Excel.
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* SQLite
-* SQL
-* Excel
-* PowerPoint
+The workflow includes:
+
+- Dataset Analysis
+- Data Quality Validation
+- Exploratory Data Analysis
+- SQL Analysis
+- Data Visualization
+- Business Insights
+- Dashboard Creation
+- Final Validation
+
+The project generates analytical reports, SQL results, charts, validation reports, and a static PowerPoint dashboard.
+
+---
+
+> This workflow shows how the dataset moves through each stage.
 
 ## Project Workflow
 
-Dataset → Data Quality → EDA → SQL → Visualization → Business Insights → Dashboard → Final Validation
+Retail Sales Dataset  
+↓  
+Data Quality  
+↓  
+Exploratory Data Analysis  
+↓  
+SQL Analysis  
+↓  
+Data Visualization  
+↓  
+Business Insights  
+↓  
+Dashboard  
+↓  
+Final Validation
 
-## Folder Structure
+---
 
-```text
-TASK - 2/
-│
-├── ApexPlanet_DataAnalytics_Dataset.xlsx
-├── README.md
-├── requirements.txt
-├── run_project.bat
-├── run_project.bat
-│
-├── code/
-│   ├── check.py
-│   ├── stats.py
-│   ├── charts.py
-│   ├── multi.py
-│   ├── sql.py
-│   ├── run_sql.py
-│   └── validate_outputs.py
-│
-├── report/
-│   ├── EDA_Report.md
-│   ├── Data_Dictionary.md
-│   ├── Data_Quality_Report.xlsx
-│   ├── Problematic_Order_IDs.xlsx
-│   ├── Problematic_Customer_Profiles.xlsx
-│   ├── Stats_Summary.xlsx
-│   ├── Multivariate_Correlation_Summary.xlsx
-│   ├── Validation_Report.txt
-│   └── charts/
-│
-├── dashboard/
-│   └── Task2_Dashboard.pptx
-│
-└── sql/
-    ├── queries.sql
-    ├── sales.db
-    └── SQL_Results.xlsx
-```
+> Technologies used to build the project.
 
-## Data Quality
+## Technologies Used
 
-The analysis identified:
+- Python
+- SQL
+- SQLite
+- Excel
+- PowerPoint
 
-* 20 missing Age values
-* 13 missing City values
-* 0 duplicate rows
-* 0 invalid dates
-* 0 zero-quantity records
-* 0 negative-quantity records
-* 0 zero-price records
-* 0 negative-price records
-* 0 incorrect Total_Sales calculations
-* 1 problematic Order ID
+---
 
-ORD100050 appears across multiple customers and dates.
+> Folder organization of the project.
 
-Transaction-level analysis therefore uses the 1,000 source records, while distinct Order IDs are reported separately.
+## Project Structure
 
-## Key Results
+Refer to the repository folder structure.
 
-* Total Revenue: ₹13.94 Cr
-* Transactions: 1,000
-* Distinct Order IDs: 992
-* Customers: 947
-* Units Sold: 5,435
-* Average Transaction Value: ₹139,399.44
-* Leading Category: Electronics
-* Electronics Revenue: ₹5.08 Cr
-* Electronics Revenue Share: 36.43%
-* Top Product: Laptop
-* Top City: Patna
-* Repeat Customers: 52
-* Repeat Customer Rate: 5.49%
-* Best Complete Month: March 2025
-* March 2025 Revenue: ₹13,059,899.94
+---
 
-## Exploratory Data Analysis
+> Main features implemented in this project.
 
-Python was used to analyze:
+## Features
 
-* Revenue
-* Quantity
-* Products
-* Categories
-* Cities
-* Gender
-* Age groups
-* Monthly revenue
-* Month-over-month growth
-* Product Pareto contribution
-* Revenue per unit
-* Correlations
-* Multivariate relationships
+- Analyze retail sales data
+- Validate data quality
+- Perform Exploratory Data Analysis
+- Perform SQL business analysis
+- Generate business visualizations
+- Analyze customer and product performance
+- Create a PowerPoint dashboard
+- Validate analytical outputs
+- Generate business recommendations
 
-Generated charts are stored in:
+---
 
-`report/charts/`
+> Files generated after successful execution.
 
-## SQL Analysis
+## Generated Outputs
 
-SQLite was used to answer 7 specific business questions covering:
+- EDA Report
+- Data Dictionary
+- Data Quality Report
+- Statistics Summary
+- Multivariate Correlation Summary
+- SQL Results
+- Validation Report
+- Business charts
+- PowerPoint Dashboard
 
-1. Top products by revenue
-2. Monthly revenue performance
-3. City and category revenue
-4. Repeat customer analysis
-5. Gender performance
-6. Age-group performance
-7. High-value transactions
+---
 
-SQL results are stored in:
+> Key findings obtained from the analyzed dataset.
 
-`sql/SQL_Results.xlsx`
+## Business Insights
 
-The SQLite database is stored in:
+- Total Revenue: ₹13.94 Cr
+- Transactions: 1,000
+- Distinct Order IDs: 992
+- Customers: 947
+- Units Sold: 5,435
+- Average Transaction Value: ₹139,399.44
+- Leading Category: Electronics
+- Electronics Revenue: ₹5.08 Cr
+- Electronics Revenue Share: 36.43%
+- Top Product: Laptop
+- Top City: Patna
+- Repeat Customers: 52
+- Repeat Customer Rate: 5.49%
+- Best Complete Month: March 2025
+- March 2025 Revenue: ₹13,059,899.94
 
-`sql/sales.db`
+---
 
-## Submission Deliverables
-
-The final project package contains the EDA report, SQL queries and results, reproducible Python workflow, validation report, and static PowerPoint dashboard.
-
-The EDA report should also be uploaded to the required GitHub repository separately if the submission instructions require a public repository link.
-
-The required 5-7 minute LinkedIn showcase video is an external submission deliverable and is not generated by the Python pipeline.
-
-## Dashboard
-
-The final PowerPoint dashboard presents:
-
-* Executive KPIs
-* Monthly revenue
-* Category performance
-* Product performance
-* Customer analysis
-* City performance
-* SQL-driven insights
-* Business recommendations
-* Data-quality findings
-
-The dashboard is stored in:
-
-`dashboard/Task2_Dashboard.pptx`
+> Follow these steps to run the project.
 
 ## How to Run
 
-Install the required packages using:
+1. Install required packages
 
-```text
+```bash
 pip install -r requirements.txt
 ```
 
-For Windows, the complete pipeline can be started with:
+2. Run the complete Windows pipeline
 
 ```text
 run_project.bat
 ```
 
-The Python files can also be run manually from the `code/` folder in this order:
+3. The Python files can also be run manually from the `code/` folder in this order:
 
-1. `check.py`
-2. `stats.py`
-3. `charts.py`
-4. `multi.py`
-5. `sql.py`
-6. `run_sql.py`
-7. `validate_outputs.py`
+- check.py
+- stats.py
+- charts.py
+- multi.py
+- sql.py
+- run_sql.py
+- validate_outputs.py
 
-## Final Validation
+---
 
-`validate_outputs.py` performs the final quality gate across the source dataset, SQLite database, relationships, and SQL output workbook.
+> Expected outputs after successful execution.
 
-It checks:
+## Expected Output
 
-* Source columns exist
-* Duplicate rows
-* Missing Age values
-* Missing City values
-* Invalid dates
-* Zero quantity
-* Negative quantity
-* Zero Unit_Price
-* Negative Unit_Price
-* Total_Sales calculation accuracy
-* Order_ID integrity
-* Row-count reconciliation
-* Revenue reconciliation
-* Units reconciliation
-* Average transaction value reconciliation
-* Customer-count reconciliation
-* Distinct Order ID reconciliation
-* Required database tables
-* Required sales columns
-* Customers table population
-* Products table population
-* Orders table reconciliation
-* Sales table reconciliation
-* Orphan customer records
-* Orphan product records
-* SQL results workbook existence
-* All 7 SQL result sheets
-* Non-empty SQL result sheets
+- EDA Report
+- SQL Results
+- Business Charts
+- Validation Report
+- PowerPoint Dashboard
 
-The final report is saved as:
+---
 
-`report/Validation_Report.txt`
+> Screenshots of project execution.
 
-All validation checks should return `PASS` before final submission.
+## Screenshots
 
-## Important Limitation
+Project screenshots and dashboard visuals are included in the repository where applicable.
 
-The dataset contains repeated Order ID values.
+---
 
-ORD100050 appears across multiple customers and dates.
+> Skills demonstrated through this project.
 
-Therefore:
+## Skills Demonstrated
 
-* Transactions = 1,000
-* Distinct Order IDs = 992
+- Python Programming
+- Exploratory Data Analysis
+- Data Quality Validation
+- SQL Analysis
+- SQLite Database Analysis
+- Data Visualization
+- Business Intelligence
+- Dashboard Creation
+- Data Validation
+- Business Reporting
 
-Transaction-level calculations use the source transaction records.
+---
 
-Customer repeat analysis uses distinct Order ID counts.
+> Possible future enhancements.
 
-January 2026 is treated as a partial period and is not compared directly with complete months.
+## Future Improvements
 
-## Conclusion
+- Interactive Business Intelligence Dashboard
+- Additional SQL Analysis
+- Automated Data Updates
+- Expanded Business Reporting
 
-The project combines data validation, exploratory analysis, SQL business analysis, visualization, database reconciliation, and dashboard reporting into a reproducible data analytics workflow.
+---
+
+> Current completion status.
+
+## Project Status
+
+Completed successfully.
+
+---
+
+## Author
+
+Anish Raj.R
+
+ApexPlanet Software Pvt. Ltd.
+
+Internship Task-2: Exploratory Data Analysis (EDA) & Business Intelligence
