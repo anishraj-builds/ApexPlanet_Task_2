@@ -2,7 +2,7 @@
 
 Python Data Analytics Internship Project
 
-## Data Analytics and Business Intelligence Project
+## Exploratory Data Analysis (EDA) & Business Intelligence
 
 Author: Anish Raj.R
 
