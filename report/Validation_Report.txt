@@ -1,0 +1,46 @@
+TASK-2 FINAL VALIDATION REPORT
+==================================================
+
+SOURCE DATA SUMMARY
+------------------------------
+Records: 1,000
+Customers: 947
+Distinct Order IDs: 992
+Revenue: ₹139,399,439.65
+Units Sold: 5,435
+Missing Age: 20
+Missing City: 13
+Problematic Order IDs: 1
+
+VALIDATION RESULTS
+------------------------------
+Duplicate rows check: PASS
+Missing Age check: PASS
+Missing City check: PASS
+Invalid dates check: PASS
+Zero quantity check: PASS
+Negative quantity check: PASS
+Zero unit price check: PASS
+Negative unit price check: PASS
+Total_Sales calculation check: PASS
+Order_ID integrity check: PASS
+Row count matches: PASS
+Revenue matches: PASS
+Units match: PASS
+Average transaction value matches: PASS
+Customer count matches: PASS
+Distinct Order ID count matches: PASS
+Required sales columns exist: PASS
+Required database tables exist: PASS
+Source columns exist: PASS
+Customers table populated: PASS
+Products table populated: PASS
+Orders table reconciled: PASS
+Sales table reconciled: PASS
+No orphan customer records: PASS
+No orphan product records: PASS
+SQL results workbook exists: PASS
+All 7 SQL result sheets exist: PASS
+All SQL result sheets contain data: PASS
+
+ALL VALIDATION CHECKS PASSED.
