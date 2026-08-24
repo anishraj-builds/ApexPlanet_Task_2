@@ -10,6 +10,14 @@ Internship: ApexPlanet Software Pvt. Ltd.
 
 ---
 
+## Project Links
+
+- GitHub Repository: https://github.com/anishraj-builds/ApexPlanet_Task_2
+
+- Dashboard: [Task 2 Dashboard](dashboard/Task2_Dashboard.pptx)
+
+---
+
 > This project demonstrates a complete data analytics and business intelligence workflow.
 
 ## Project Objective
