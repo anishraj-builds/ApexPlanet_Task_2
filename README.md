@@ -14,7 +14,7 @@ Internship: ApexPlanet Software Pvt. Ltd.
 
 - GitHub Repository: https://github.com/anishraj-builds/ApexPlanet_Task_2
 
-- Dashboard: [Task 2 Dashboard](dashboard/Task2_Dashboard.pptx)
+- Dashboard: [Task-2 Dashboard](dashboard/Task_2_Dashboard.pptx)
 
 ---
 
