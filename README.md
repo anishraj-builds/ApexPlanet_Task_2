@@ -10,14 +10,6 @@ Internship: ApexPlanet Software Pvt. Ltd.
 
 ---
 
-## Project Links
-
-- GitHub Repository: https://github.com/anishraj-builds/ApexPlanet_Task_2
-
-- Dashboard: [Task-2 Dashboard](dashboard/Task_2_Dashboard.pptx)
-
----
-
 > This project demonstrates a complete data analytics and business intelligence workflow.
 
 ## Project Objective
@@ -25,6 +17,12 @@ Internship: ApexPlanet Software Pvt. Ltd.
 The project focuses on EDA, SQL analysis, visualization, dashboard creation and business insights.
 
 Technologies Used: Python, SQL, SQLite, Excel and PowerPoint
+
+## Project Links
+
+- GitHub Repository: https://github.com/anishraj-builds/ApexPlanet_Task_2
+
+- Dashboard: [Task-2 Dashboard](dashboard/Task_2_Dashboard.pptx)
 
 ---
 
